@@ -32,6 +32,8 @@ Its purpose is to make proven delivery components visible and reusable so teams 
 |---|---|---|---|
 | [agentfoundry-fastapi-template](https://github.com/neueda/agentfoundry-fastapi-template) | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
 | [agentfoundry-adk](https://github.com/neueda/agentfoundry-adk) | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
+| [zink-ci](https://github.com/neueda/zinkci) | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
+| [nextjs](https://github.com/neueda/agentfoundry-nextjs-template) | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
 | `[Component name]` | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
 
 ## Get in touch
