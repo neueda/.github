@@ -16,7 +16,7 @@ This GitHub is the front door to the work, thinking and reusable assets that sup
 ## AgentFoundry
 
 AgentFoundry is Zinkworks' reusability catalogue for project delivery.
-
+Put 
 Its purpose is to make proven delivery components visible and reusable so teams can start faster, reduce setup effort, improve consistency and deliver with more confidence. Over time, it helps turn delivery knowledge into reusable Zinkworks IP.
 
 ### Why it exists
@@ -28,13 +28,12 @@ Its purpose is to make proven delivery components visible and reusable so teams 
 
 ### Components
 
-| Repo | Description | Status | Owners |
+| Repo | Description | When it should be used | Owners |
 |---|---|---|---|
-| [agentfoundry-fastapi-template](https://github.com/neueda/agentfoundry-fastapi-template) | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
-| [agentfoundry-adk](https://github.com/neueda/agentfoundry-adk) | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
-| [zink-ci](https://github.com/neueda/zinkci) | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
-| [nextjs](https://github.com/neueda/agentfoundry-nextjs-template) | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
-| `[Component name]` | `[Short description of what it does]` | `[Draft / Reusable / Productised]` | `[Owner name]` |
+| [agentfoundry-fastapi-template](https://github.com/neueda/agentfoundry-fastapi-template) | `Production-oriented FastAPI backend template with clean architecture: routers, services, repositories, schemas, ORM models, dependency injection, and test coverage across unit, integration, and end-to-end levels. It also includes patterns for GCP services such as BigQuery and GCS.` | `Use when starting a Python backend or API and you want a maintainable, testable structure from beginning. Good for internal services, CRUD APIs, business logic services, and integration-heavy backends.` | `[Owner name]` |
+| [agentfoundry-adk](https://github.com/neueda/agentfoundry-adk) | `Starter repo for building multi-agent applications with Google ADK. The current content is centered on a supervisor/router pattern, where a root agent routes requests to specialist sub-agents with separate prompts, tools, and error handling.` | ` Use when building AI agent systems where requests need to be classified and delegated across specialist agents, such as support, billing, operations, or workflow assistants. Best suited for agent orchestration and tool-driven AI workflows rather than standard web apps.` | `[Owner name]` |
+| [zink-ci](https://github.com/neueda/zinkci) | `Reusable CI/CD platform template for GCP, combining Terraform and Helm to provide shared platform infrastructure, pipeline definitions, build/deploy/security automation, and multi-tenant delivery patterns.` | `Use when setting up or standardizing CI/CD platforms across multiple teams or projects. Best for platform-level DevOps reuse, centralized pipeline management, GitOps-style workflows, and consistent delivery infrastructure.` | `[Owner name]` |
+| [nextjs](https://github.com/neueda/agentfoundry-nextjs-template) | `Standardized Next.js frontend starter with React, TypeScript, Tailwind, shadcn/ui, Zustand, TanStack Query/Table, auth scaffolding, dashboard layout, and Vitest-based test setup. It is intended to remove repeated frontend setup work.` | `[Draft / Reusable / Productised]` | `[Owner name]` |
 
 ## Get in touch
 
